@@ -15,7 +15,7 @@ class Resource
     private string $table;
     private array $columns;
     private array $types;
-    private array $null;
+    protected array $null;
     private array $default;
     private string $key;
 
