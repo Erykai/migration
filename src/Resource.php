@@ -4,7 +4,7 @@ namespace Erykai\Migration;
 
 use PDO;
 
-class Resource
+abstract class Resource
 {
     use TraitMigration;
 
@@ -107,7 +107,7 @@ class Resource
     /**
      * @return string
      */
-    public function getKey(): string
+    protected function getKey(): string
     {
         return $this->key;
     }
@@ -115,7 +115,7 @@ class Resource
     /**
      * @param string $key
      */
-    public function setKey(string $key): void
+    protected function setKey(string $key): void
     {
         $this->key = $key;
     }

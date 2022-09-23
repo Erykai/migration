@@ -1,5 +1,13 @@
 # Migration
-Auto create tables database mysql
+[![Maintainer](http://img.shields.io/badge/maintainer-@alexdeovidal-blue.svg?style=flat-square)](https://instagram.com/alexdeovidal)
+[![Source Code](http://img.shields.io/badge/source-erykai/migration-blue.svg?style=flat-square)](https://github.com/erykai/migration)
+[![PHP from Packagist](https://img.shields.io/packagist/php-v/erykai/migration.svg?style=flat-square)](https://packagist.org/packages/erykai/migration)
+[![Latest Version](https://img.shields.io/github/release/erykai/migration.svg?style=flat-square)](https://github.com/erykai/migration/releases)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
+[![Quality Score](https://img.shields.io/scrutinizer/g/erykai/migration.svg?style=flat-square)](https://scrutinizer-ci.com/g/erykai/migration)
+[![Total Downloads](https://img.shields.io/packagist/dt/erykai/migration.svg?style=flat-square)](https://packagist.org/packages/erykai/migration)
+
+Auto create tables mysql
 
 ## Installation
 
