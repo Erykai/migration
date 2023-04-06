@@ -67,7 +67,7 @@ class Migration extends Resource
             $query .= "`$column` {$this->getTypes()[$key]}$default{$this->getNull()[$key]},";
         }
         $query = rtrim($query, ",");
-        $query .= ");";
+        $query .= ") ";
         $query .= "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;";
         $data = "CREATE TABLE {$this->getTable()} $query";
         $this->conn->query($data);
